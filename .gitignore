@@ -1,0 +1,30 @@
+# Unityの一時ファイルを除外
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Visual Studio の不要ファイル
+.vs/
+.vscode/
+*.csproj
+*.sln
+*.user
+*.suo
+*.unityproj
+
+# Unityプラグインのキャッシュ
+Assets/Plugins/*/Editor.meta
+Assets/Plugins/*/Editor.dll.meta
+Assets/Plugins/*/Editor.pdb.meta
+
+# UserSettings 内のローカル設定を無視
+UserSettings/
+
+# または、より細かく指定する場合は個別に指定
+UserSettings/EditorUserSettings.asset
+UserSettings/Layouts/*.dwlt
+

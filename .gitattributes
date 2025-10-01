@@ -1,0 +1,21 @@
+# 既定：テキストはLFに正規化
+* text=auto eol=lf
+
+# バイナリは変換しない
+*.png binary
+*.jpg binary
+*.fbx binary
+*.exr binary
+*.psd binary
+
+# Unity系テキストはLF固定
+*.unity  text eol=lf
+*.prefab text eol=lf
+*.mat    text eol=lf
+*.meta   text eol=lf
+*.vfx    text eol=lf
+*.shader text eol=lf
+*.cs     text eol=lf
+
+# Windows専用スクリプトだけCRLFにしたい場合（必要なら）
+*.bat eol=crlf
